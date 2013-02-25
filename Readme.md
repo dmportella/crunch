@@ -15,8 +15,6 @@ Work to do
 * Add parallel processing.
 * Fix Stylecop errors.
 
-You can also logon into test users accounts with the details facebook sends you.
-
 I will welcome any pull requests, bug reports or feature requests.
 
 Hmm...Muffins.
