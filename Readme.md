@@ -15,6 +15,9 @@ Work to do
 * Add parallel processing.
 * Fix Stylecop errors.
 
+Limitations
+* It only works while you are connected to the internet.
+
 I will welcome any pull requests, bug reports or feature requests.
 
 Hmm...Muffins.
