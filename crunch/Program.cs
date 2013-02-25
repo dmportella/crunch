@@ -15,6 +15,11 @@
         private static AutoResetEvent completed = new AutoResetEvent(false);
         private static long errorCount = 0;
 
+        /// <summary>
+        /// Main Entry point of the application.
+        /// </summary>
+        /// <param name="args">List ogf arguments passed into the application.</param>
+        /// <returns>Returns zero for success other values indicate that an error occurred.</returns>
         static int Main(string[] args)
         {
             string folder = string.Empty;
@@ -25,7 +30,7 @@
             var p = new OptionSet() 
             {
                 { "f|folder=", "the {FOLDER} to be processed.", v => folder = v },
-                { "s|search=", "the {SEARCH} file search filter to be used.", v => searchFilter = v},
+                { "s|search=", "the {SEARCH} file search filter to be used default value is *.gif, *.png, *.jpg.", v => searchFilter = v},
                 { "h|help",  "show this message and exit", v => showHelp = v != null }
             };
 

@@ -3,6 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crunch", "crunch\crunch.csproj", "{0F393813-1AF2-4293-970A-FC6C6D06B19B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E0ED0C4-E0C4-4206-84B3-B95EE0FF0FFC}"
+	ProjectSection(SolutionItems) = preProject
+		CompanyInfo.cs = CompanyInfo.cs
+		ConfigurationInfo.cs = ConfigurationInfo.cs
+		CultureInfo.cs = CultureInfo.cs
+		ProductInfo.cs = ProductInfo.cs
+		VersionInfo.cs = VersionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crunch.net4", "crunch.net4\crunch.net4.csproj", "{88469369-D263-4E3A-B030-A472FE1D9415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{C0904EFF-2390-4BA9-937C-AAF9D9C4C91D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +26,16 @@ Global
 		{0F393813-1AF2-4293-970A-FC6C6D06B19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F393813-1AF2-4293-970A-FC6C6D06B19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F393813-1AF2-4293-970A-FC6C6D06B19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88469369-D263-4E3A-B030-A472FE1D9415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88469369-D263-4E3A-B030-A472FE1D9415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88469369-D263-4E3A-B030-A472FE1D9415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88469369-D263-4E3A-B030-A472FE1D9415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F393813-1AF2-4293-970A-FC6C6D06B19B} = {C0904EFF-2390-4BA9-937C-AAF9D9C4C91D}
+		{88469369-D263-4E3A-B030-A472FE1D9415} = {C0904EFF-2390-4BA9-937C-AAF9D9C4C91D}
 	EndGlobalSection
 EndGlobal
